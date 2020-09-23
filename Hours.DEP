@@ -1,0 +1,26 @@
+[Version]
+Version=1.0.0.0
+
+[Hours.exe <0009>]
+Dest=$(AppPath)
+Date=7/23/03
+Time=00:12
+Version=1.0.0.0
+CABFilename=Hours.CAB
+CABINFFile=Hours.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=MSCOMCT2.OCX
+Uses8=Comdlg32.ocx
+Uses9=MCI32.OCX
+Uses10=vbskfree.ocx
+
+[vbskfree.ocx <0009>]
+Dest=$(WinSysPath)
+Date=8/21/02
+Time=16:33
+Version=1.20.0.0
